@@ -1,0 +1,212 @@
+body {
+background-color: white;
+font-family: Georgia, "Times New Roman",
+Times, serif;
+font-size: small;
+margin: 0px;
+
+}
+
+#header {
+background-color: #690b22;
+height: 150px;
+}
+
+section#main {
+vertical-align: top;
+background: white ;
+font-size: 105%;
+padding: 10px;
+margin: 20px 70px 70px 70px;
+
+
+
+}
+
+aside {
+display: table-cell;
+vertical-align: top;
+background: #efe5d0 url(C:\Users\miguel\Desktop\imagenes4\background.gif) bottom right;
+font-size: 100%;
+padding: 5px;
+}
+
+
+section#drinks{
+display: table-cell;
+vertical-align: top;
+background: #efe5d0 ;
+font-size: 105%;
+	font-size: 105%;
+    padding: 30px;
+}
+
+#footer {
+background-color: #111111;
+color: #efe5d0;
+text-align: center;
+padding: 30px;
+font-size: 100%;
+margin: 100px 0px 0px 0px;
+
+}
+
+h1 {
+font-size: 150%;
+color: #954b4b;
+
+}
+
+.slogan {
+color: #954b4b;
+
+}
+
+.beanheading {
+text-align: center;
+line-height: 1.8em;
+
+}
+
+a;link {
+color: #b76666;
+text-decoration: none;
+border-bottom: thin dotted #b76666;
+
+}
+
+a:visited {
+color: #675c47;
+text-decoration: none;
+border-bottom: thin dotted #675c47;
+}
+
+#allcontent{
+width: 800px;
+padding-top: 5px;
+padding-bottom: 5px;
+background-color: #675c47;
+
+}
+
+#das{
+background: #efe5d0;
+vertical-align: top;
+font-size: 105%;
+padding: 15px;
+}
+
+div#talecontainer{
+	display: table;
+	border-spacing: 10px;
+} 
+div#talerow{
+	display: table;
+	
+} 
+
+#headerslogan{
+	float: right;
+}
+#headerlogo{
+
+	float: left;
+	position: absolute;
+	top:50;
+	left: 5px;
+	border: none;
+
+}
+
+#cupo{
+	position: fixed;
+	top: 350px;
+	left: -90px;
+}
+#cupo a img{
+border: none;	
+}
+
+
+nav{
+background-color: white;
+margin: 10px 10px 0px 10px;
+
+
+}
+nav ul{
+margin: 0px;
+list-style-type: none;
+padding: 5px 0px 5px 0px;
+text-align: right;
+}
+nav ul li{
+display: inline;
+padding: 5px 10px 5px 10px;
+text-align: right;
+}
+
+nav ul li a:link, nav ul li a:visited{
+color: black;
+border-bottom:none;
+font-weight:bold;
+}
+nav ul li.se1ected{
+background-color: #740606 ;
+}
+
+#no{
+	font-size: 300%; 
+	color: white;
+	position: absolute;
+	top: 70px;
+	left: 165px;
+}
+#nom{
+	font-size: 125%;
+	color: white;
+	font-family: shaded.ttf;
+	position: absolute;
+	top: 103px;
+	left: 550px;
+}
+
+#ser{
+background-color: black;
+color: white;
+text-align: center;
+padding: 20px;
+font-size: 200%;
+clear: right;
+}
+#se{
+	color: #efe5d0;
+}
+#im1{
+	
+    position: center;
+    padding: 5px 90px 30px 240px;
+	
+}
+#contactoo{
+background-color: #efe5d0;
+border-color:black;
+border-width: thin;
+border: 3px;
+border-style:solid;
+width:200px;
+padding-right: 20px;
+padding-left:20px;
+padding-bottom:20px;
+margin-left:20px;
+text-align: center;
+line-height:1;
+float:right;
+font-size: 10px;
+}
+#im4{
+	
+    position: center;
+    padding: 5px 5px 5px 5px;
+	
+}
