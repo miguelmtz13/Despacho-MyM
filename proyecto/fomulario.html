@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>The Starbuzz bean Machine</title>
+	<link type="text/css" rel="stylesheet"
+href="C:\Users\miguel\Desktop\carpeta\css\formulario.css"/>
+</head>
+<body>
+	<h1>The Stauzz ean Machine</h1>
+	<h2>Fill out the form elow and cliclk "order now" to order</h2>
+<form action="http://starbuzzcoffee.com/processorder.php" method="post">
+<div class="tableRow">
+<p>
+Choose your beans:
+</p>
+<p>
+<select name="beans">
+<option value="House Blend">House Blend </option>
+<option value ="Bolivia">5hade Grown Bolivia Supremo</option>
+<option value="Guatemala">Organic Guatena1a</option>
+<option value="Kenya">Kenya</option>
+</select>
+</p>
+</diV>
+
+<div class="tableRow">
+<p> Type: </p>
+<p>
+<input type="radio" name="beantype" value="whole"> Hhole bean<br>
+<input type="radio" name="beantype" value="ground" checked>Ground
+</p>
+</div>
+
+<div class="tableRow">
+<p> Number of bags: </p>
+<p> <input type="number" name="bags" min="1" max="10"> </p>
+</div>
+
+<div class="tableRow label">
+<p> Must arrive by date: </p>
+<p> <input type="date" name="date"> </p>
+</div>
+
+<div class="tableRow">
+<p> Extras: </p>
+<p>
+<input type="checkbox" name="extras[]" value="giftwap"> Gift Wrap<br>
+<input type="checkbox" name="extras[]" value="catalog" checked>
+Include catalog vim order
+</p>
+</div>
+
+<div class="tableRow">
+<p class="heading"> Ship to </p>
+<p></p>
+</div>
+
+<div class="tableRow">
+<p> name: </p>
+<input type="text" name="name" value="" placecholder="icente Perez" required> </p>
+</div>
+
+<div class="tableRow">
+<p> Address: </p>
+<input type="text" native="address" value="" placeholder="ctis 222" required> </p>
+</div>
+
+<div class="tableRow">
+<p> city: </p>
+<input type="text" name="city" value="" plateholder="pachuca" required> </p>
+</div>
+
+<div class ="tableRow">
+<p> state: </p>
+<p> <input type="text" name="state" value="" placeholder="hidalgo" required> </p>
+</div>
+
+<div class="tableRow">
+<p> zip: </p>
+<p> <input type="text" name="zip" value="" placeholder="42000" required></p>
+</div>
+
+<div class="tableRow">
+<p> Phone: </p>
+<p> <input type="tel" name="phone" value="" placeholder="2771655421" required></p>
+</div>
+
+<div class="tableRow">
+<p> Customer Comments: </p>
+<p>
+<textarea name="comuents"></textarea>
+</p>
+</div>
+<div class="tableRoW">
+<p></p>
+<p> <input type="submit" value="Order Now"> </p>
+</div>
+
+</form>
+</body>
+</html>
+
+
+
+
+
